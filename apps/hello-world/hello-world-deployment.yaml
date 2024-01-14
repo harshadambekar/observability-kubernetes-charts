@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openopm-hello-world
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: openopm-hello-world
+  template:
+    metadata:
+      labels:
+        app: openopm-hello-world
+    spec:
+      containers:
+      - image: localhost:5000/openopm-hello-world
+        name: openopm-hello-world
+        ports:
+        - containerPort: 80

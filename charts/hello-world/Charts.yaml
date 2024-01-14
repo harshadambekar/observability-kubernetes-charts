@@ -22,7 +22,7 @@ appVersion: 0.0.1
 keywords:
   - helloworld
   - kubernetes
-home: https://github.com/harshadambekar/observability-kubernetes-charts/charts/helloworld
+home: https://github.com/harshadambekar/observability-kubernetes-charts/charts/hello-world
 maintainers:
 - name: HarshadAmbekar
   email: harshad.ambekar@gmail.com
